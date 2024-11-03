@@ -20,8 +20,9 @@ const BlogPost = () => {
   
   return (
     <div>
-      <h1>{post.id},<br></br>{post.title}</h1>
-      <p>{post.body}</p>
+      <h1 className='text-center font-semibold text-2xl bg-yellow-600 text-red-800 p-8'>{post.id} </h1>
+      <h1 className='text-center bg-white text-black'>{post.title}</h1>
+      <p className='justify-stretch'>{post.body}</p>
     </div>
   )
 }
